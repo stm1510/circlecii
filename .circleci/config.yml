@@ -20,7 +20,7 @@ jobs:
       - image : circleci/node:13.0.0
     steps :
       - checkout
-      - run : echo Hi TQ
+      - run : echo $MY_NAME
             
 
 # Invoke jobs via workflows
