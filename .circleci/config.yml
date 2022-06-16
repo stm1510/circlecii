@@ -23,6 +23,7 @@ jobs:
     steps :
       - checkout
       - run : echo $MY_NAME
+      - run : echo Done !!
             
 
 # Invoke jobs via workflows
